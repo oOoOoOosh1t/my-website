@@ -1,0 +1,588 @@
+[
+  {
+    "id": "pengPengPhantom",
+    "name": "砰砰特工队 幻影",
+    "price": "2175",
+    "kind": "knife",
+    "englishName": "BlastX Phantom",
+    "time1": "场 1",
+    "time2": "点燃",
+    "time3": "赛幕 3",
+    "time4": "2020-12-08",
+    "Collection": "砰砰X特攻队",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/PengPengtegongdui_Phantom/level1.mp4",
+        "videoName": "砰砰特工队 幻影"
+      },
+      {
+        "video": "goods/PengPengtegongdui_Phantom/level2.mp4",
+        "videoName": "砰砰特工队 幻影 等级2"
+      },
+      {
+        "video": "goods/PengPengtegongdui_Phantom/level3.mp4",
+        "videoName": "砰砰特工队 幻影 等级3"
+      },
+      {
+        "video": "goods/PengPengtegongdui_Phantom/level4.mp4",
+        "videoName": "砰砰特工队 幻影 等级4"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Phantom/pengpengtegongduiOperator.webp",
+        "name": "砰砰特工队 幻影",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Phantom/pengpengtegongduiOperator1.webp",
+        "name": "砰砰特工队 幻影 等级2 （异本1 黑色）",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Phantom/pengpengtegongduiOperator2.webp",
+        "name": "砰砰特工队 幻影 等级3 （异本2 黄色）",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Phantom/pengpengtegongduiOperator3.webp",
+        "name": "砰砰特工队 幻影 等级4 （异本3 粉红）",
+        "levtag": "images/icon/purple.png"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Phantom/pengpengtegongduiOperator.webp",
+    "length": "wep"
+  },
+  {
+    "id": "gaiya2.0Ares",
+    "name": "盖亚的复仇2.0 战神",
+    "price": "1775",
+    "kind": "knife",
+    "englishName": "Gaia's Vengeance Ares",
+    "time1": "场 7",
+    "time2": "战火蔓延",
+    "time3": "赛幕 2",
+    "time4": "2023-10-04",
+    "Collection": "盖亚的复仇",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/gaiya2.0_Ares/gaiya2.0Areslevel1.mp4",
+        "videoName": "盖亚的复仇2.0 战神"
+      },
+      {
+        "video": "goods/gaiya2.0_Ares/gaiya2.0Areslevel2.mp4",
+        "videoName": "盖亚的复仇2.0 战神 等级2"
+      },
+      {
+        "video": "goods/gaiya2.0_Ares/gaiya2.0Areslevel3.mp4",
+        "videoName": "盖亚的复仇2.0 战神 等级3"
+      },
+      {
+        "video": "goods/gaiya2.0_Ares/gaiya2.0Areslevel4.mp4",
+        "videoName": "盖亚的复仇2.0 战神 等级4"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Ares/gaiya2.0Ares.webp",
+        "name": "盖亚的复仇2.0 战神",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Ares/gaiya2.0Ares1.webp",
+        "name": "盖亚的复仇2.0 战神 等级2 （炫彩1 蓝色）",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Ares/gaiya2.0Ares2.webp",
+        "name": "盖亚的复仇2.0 战神 等级3 （炫彩2 绿色）",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Ares/gaiya2.0Ares3.webp",
+        "name": "盖亚的复仇2.0 战神 等级4 （炫彩3 橙色）",
+        "levtag": "images/icon/purple.png"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Ares/gaiya2.0Ares.webp",
+    "length": "wep"
+  },
+  {
+    "id": "liziBucky",
+    "name": "离子圣芒 雄鹿",
+    "price": "1775",
+    "kind": "knife",
+    "englishName": "Ion Bucky",
+    "time1": "场 1",
+    "time2": "点燃",
+    "time3": "赛幕 3",
+    "time4": "2020-11-11",
+    "Collection": "离子圣芒",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/Ico_Bucky/Ico_Bucky.mp4",
+        "videoName": "离子圣芒 雄鹿"
+      },
+      {
+        "video": "goods/Ico_Bucky/Ico_Bucky2.mp4",
+        "videoName": "离子圣芒 雄鹿 等级2"
+      },
+      {
+        "video": "goods/Ico_Bucky/Ico_Bucky3.mp4",
+        "videoName": "离子圣芒 雄鹿 等级3"
+      },
+      {
+        "video": "goods/Ico_Bucky/Ico_Bucky4.mp4",
+        "videoName": "离子圣芒 雄鹿 等级4"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Bucky/Lizi_Bucky.webp",
+        "name": "离子圣芒 雄鹿",
+        "levtag": "images/icon/purple.png"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Bucky/Lizi_Bucky.webp",
+    "length": "wep"
+  },
+  {
+    "id": "guangPuBulldog",
+    "name": "光谱 僚犬",
+    "price": "2675",
+    "kind": "knife",
+    "englishName": "Spectrum Bulldog",
+    "time1": "场 3",
+    "time2": "反射",
+    "time3": "赛幕 2",
+    "time4": "2021-09-08",
+    "Collection": "电音光谱",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/Spectrum_Bulldog/SpectrumBulldog1.mp4",
+        "videoName": "光谱 僚犬"
+      },
+      {
+        "video": "goods/Spectrum_Bulldog/SpectrumBulldog3.mp4",
+        "videoName": "光谱 僚犬神 等级3"
+      },
+      {
+        "video": "goods/Spectrum_Bulldog/SpectrumBulldog4.mp4",
+        "videoName": "光谱 僚犬 等级4"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Bulldug/guangpuBulldug.webp",
+        "name": "光谱 僚犬",
+        "levtag": "images/icon/orange.webp"
+      },
+      {
+        "img": "images/weapon/Bulldug/guangpuBulldug1.webp",
+        "name": "光谱 獠犬 等级4 （异本1 黑色）",
+        "levtag": "images/icon/orange.webp"
+      },
+      {
+        "img": "images/weapon/Bulldug/guangpuBulldug2.webp",
+        "name": "光谱獠犬等级4 （异本2 红色）",
+        "levtag": "images/icon/orange.webp"
+      },
+      {
+        "img": "images/weapon/Bulldug/guangpuBulldug3.webp",
+        "name": "光谱獠犬等级4 （异本3 紫色/粉色）",
+        "levtag": "images/icon/orange.webp"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Bulldug/guangpuBulldug.webp",
+    "length": "wep"
+  },
+  {
+    "id": "Spectrum_Classic",
+    "name": "光谱 标配",
+    "price": "2675",
+    "kind": "knife",
+    "englishName": "Spectrum Classic",
+    "time1": "场 3",
+    "time2": "反射",
+    "time3": "赛幕 2",
+    "time4": "2021-09-08",
+    "Collection": "电音光谱",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/Spectrum_Classic/SpectrumClassic1.mp4",
+        "videoName": "电音光谱 标配"
+      },
+      {
+        "video": "goods/Spectrum_Classic/SpectrumClassic2.mp4",
+        "videoName": "电音光谱 标配 等级2"
+      },
+      {
+        "video": "goods/Spectrum_Classic/SpectrumClassic3.mp4",
+        "videoName": "电音光谱 标配 等级3"
+      },
+      {
+        "video": "goods/Spectrum_Classic/SpectrumClassic4.mp4",
+        "videoName": "电音光谱 标配 等级4"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Classic/Spectrum_Classic.webp",
+        "name": "光谱 标配",
+        "levtag": "images/icon/orange.webp"
+      },
+      {
+        "img": "images/weapon/Classic/Spectrum_Classic2.webp",
+        "name": "光谱 标配 等级4 （异本1 黑色）",
+        "levtag": "images/icon/orange.webp"
+      },
+      {
+        "img": "images/weapon/Classic/Spectrum_Classic3.webp",
+        "name": "光谱 标配 等级4 （异本2 红色）",
+        "levtag": "images/icon/orange.webp"
+      },
+      {
+        "img": "images/weapon/Classic/Spectrum_Classic4.webp",
+        "name": "光谱 标配 等级4 （异本 3紫色/粉色）",
+        "levtag": "images/icon/orange.webp"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Classic/Spectrum_Classic.webp",
+    "length": "frenzy"
+  },
+  {
+    "id": "Titanmail_Frenzy",
+    "name": "泰坦 狂怒",
+    "price": "1275",
+    "kind": "knife",
+    "englishName": "Titanmail Frenzy",
+    "time1": "场 4",
+    "time2": "破界点",
+    "time3": "赛幕 3",
+    "time4": "2022-05-10",
+    "Collection": "泰坦刺甲",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/Titanmail_Frenzy/Titanmail_Frenzy.mp4",
+        "videoName": "泰坦刺甲 狂怒"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Frenzy/titanmail_frenzy.webp",
+        "name": "泰坦刺甲 狂怒",
+        "levtag": "images/icon/green.webp"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/green.webp",
+    "imgUrl3": "images/weapon/Frenzy/titanmail_frenzy.webp",
+    "length": "frenzy"
+  },
+  {
+    "id": "ValiantHeroGhost",
+    "name": "盖世英雄 鬼魅",
+    "price": "1775",
+    "kind": "knife",
+    "englishName": "Valiant Hero Ghost",
+    "time1": "场 7",
+    "time2": "战火蔓延",
+    "time3": "赛幕 3",
+    "time4": "2023-10-31",
+    "Collection": "盖世英雄",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/valiantHeroGhost/valiantHeroGhost.mp4",
+        "videoName": "盖世英雄 鬼魅"
+      },
+      {
+        "video": "goods/valiantHeroGhost/valiantHeroGhost2.mp4",
+        "videoName": "盖世英雄 鬼魅 等级2"
+      },
+      {
+        "video": "goods/valiantHeroGhost/valiantHeroGhost3.mp4",
+        "videoName": "盖世英雄 鬼魅 等级3"
+      },
+      {
+        "video": "goods/valiantHeroGhost/valiantHeroGhost4.mp4",
+        "videoName": "盖世英雄 鬼魅 等级4"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Ghost/valiantHeroGhost1.webp",
+        "name": "盖世英雄 鬼魅",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Ghost/valiantHeroGhost2.webp",
+        "name": "盖世英雄 鬼魅 等级4 （炫彩1 落日）",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Ghost/valiantHeroGhost3.webp",
+        "name": "盖世英雄 鬼魅 等级4 （炫彩2 暮光）",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Ghost/valiantHeroGhost4.webp",
+        "name": "盖世英雄 鬼魅 等级4 （炫彩3 幽月）",
+        "levtag": "images/icon/purple.png"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Ghost/valiantHeroGhost1.webp",
+    "length": "wep"
+  },
+  {
+    "id": "SoulstrifeGuardian",
+    "name": "灵魂冲击 戍卫",
+    "price": "1775",
+    "kind": "knife",
+    "englishName": "Soulstrife Guardian",
+    "time1": "场 5",
+    "time2": "异界",
+    "time3": "赛幕 3",
+    "time4": "2022-11-01",
+    "Collection": "灵魂冲击",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/Soulstrife_Guardian/SoulstrifeGuardian.mp4",
+        "videoName": "灵魂冲击 戍卫"
+      },
+      {
+        "video": "goods/Soulstrife_Guardian/SoulstrifeGuardian.mp4",
+        "videoName": "灵魂冲击 戍卫 等级2"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Guardian/linghunchongji_Guardian.webp",
+        "name": "灵魂冲击 戍卫",
+        "levtag": "images/icon/purple.png"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Guardian/linghunchongji_Guardian.webp",
+    "length": "wep"
+  },
+  {
+    "id": "Tilde_Judge",
+    "name": "金属浪潮 判官",
+    "price": "890",
+    "kind": "knife",
+    "englishName": "Tilde Judge",
+    "time1": "场 6",
+    "time2": "异界",
+    "time3": "赛幕 2",
+    "time4": "2023-03-07",
+    "Collection": "金属浪潮",
+    "isPass": "是 / 启幕：第二幕",
+    "Contract": "非",
+    "colors": [
+      {
+        "img": "images/weapon/Judge/Tilde_Judge1.webp",
+        "name": "金属浪潮 判官",
+        "levtag": "images/icon/green.webp"
+      },
+      {
+        "img": "images/weapon/Judge/Tilde_Judge2.webp",
+        "name": "金属浪潮 判官 （炫彩1 红色）",
+        "levtag": "images/icon/green.webp"
+      },
+      {
+        "img": "images/weapon/Judge/Tilde_Judge3.webp",
+        "name": "金属浪潮 判官 （炫彩2 紫色）",
+        "levtag": "images/icon/green.webp"
+      },
+      {
+        "img": "images/weapon/Judge/Tilde_Judge4.webp",
+        "name": "金属浪潮 判官 （炫彩3 绿色）",
+        "levtag": "images/icon/green.webp"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/green.webp",
+    "imgUrl3": "images/weapon/Judge/Tilde_Judge1.webp",
+    "length": "wep"
+  },
+  {
+    "id": "Black.Market_Butterfly_Knife",
+    "name": "黑市 蝴蝶刀",
+    "price": "3550",
+    "kind": "knife",
+    "englishName": "Black.Market Butterfly Knife",
+    "time1": "场 6",
+    "time2": "异界",
+    "time3": "赛幕 2",
+    "time4": "2023-04-12",
+    "Collection": "黑市",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/Black.Market_Butterfly_Knife/Black.MarketButterflyKnife.mp4",
+        "videoName": "黑市 蝴蝶刀"
+      },
+      {
+        "video": "goods/Black.Market_Butterfly_Knife/Black.MarketButterflyKnife2.mp4",
+        "videoName": "黑市 蝴蝶刀 等级2"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Knife/heishihudiedao.webp",
+        "name": "黑市 蝴蝶刀",
+        "levtag": "images/icon/orange.webp"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Knife/heishihudiedao.webp",
+    "length": "wep"
+  },
+  {
+    "id": "Sentinels_of_Light_Odin",
+    "name": "光明哨兵2.0 奥丁",
+    "price": "2175",
+    "kind": "knife",
+    "englishName": "Sentinels of Light Odin",
+    "time1": "场 7",
+    "time2": "战火蔓延",
+    "time3": "赛幕 3",
+    "time4": "2023-11-14",
+    "Collection": "光明哨兵 2.0",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/OdinSentinelsofLightOdin/OdinSentinelsofLightOdin1.mp4",
+        "videoName": "光明哨兵 2.0 奥丁"
+      },
+      {
+        "video": "goods/OdinSentinelsofLightOdin/OdinSentinelsofLightOdin2.mp4",
+        "videoName": "光明哨兵 2.0 奥丁 等级2"
+      },
+      {
+        "video": "goods/OdinSentinelsofLightOdin/OdinSentinelsofLightOdin3.mp4",
+        "videoName": "光明哨兵 2.0 奥丁 等级3"
+      },
+      {
+        "video": "goods/OdinSentinelsofLightOdin/OdinSentinelsofLightOdin4.mp4",
+        "videoName": "光明哨兵 2.0 奥丁 等级4"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Odin/SentinelsofLightOdin.webp",
+        "name": "光明哨兵 2.0 奥丁",
+        "levtag": "images/icon/orange.webp"
+      },
+      {
+        "img": "images/weapon/Odin/SentinelsofLightOdin2.webp",
+        "name": "光明哨兵 2.0 奥丁 等级4 （炫彩1 粉红）",
+        "levtag": "images/icon/orange.webp"
+      },
+      {
+        "img": "images/weapon/Odin/SentinelsofLightOdin3.webp",
+        "name": "光明哨兵 2.0 奥丁 等级4 （炫彩2 红/绿）",
+        "levtag": "images/icon/orange.webp"
+      },
+      {
+        "img": "images/weapon/Odin/SentinelsofLightOdin4.webp",
+        "name": "光明哨兵 2.0 奥丁 等级4 （炫彩3 蓝/紫）",
+        "levtag": "images/icon/orange.webp"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Odin/SentinelsofLightOdin.webp",
+    "length": "wep"
+  },
+  {
+    "id": "Valiant_Hero_Operator",
+    "name": "盖世英雄 冥驹",
+    "price": "1775",
+    "kind": "knife",
+    "englishName": "Valiant Hero Operator",
+    "time1": "场 7",
+    "time2": "战火蔓延",
+    "time3": "赛幕 3",
+    "time4": "2023-10-31",
+    "Collection": "盖世英雄",
+    "isPass": "非",
+    "Contract": "非",
+    "videos": [
+      {
+        "video": "goods/GaiShiYingxiong_Operator/leve1.mp4",
+        "videoName": "盖世英雄 冥驹"
+      },
+      {
+        "video": "goods/GaiShiYingxiong_Operator/leve1.mp4",
+        "videoName": "盖世英雄 冥驹 等级2"
+      },
+      {
+        "video": "goods/GaiShiYingxiong_Operator/leve1.mp4",
+        "videoName": "盖世英雄 冥驹 等级3"
+      },
+      {
+        "video": "goods/GaiShiYingxiong_Operator/leve1.mp4",
+        "videoName": "盖世英雄 冥驹 等级4"
+      }
+    ],
+    "colors": [
+      {
+        "img": "images/weapon/Operator/gaishiyingxiongOperator.webp",
+        "name": "盖世英雄 冥驹",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Operator/gaishiyingxiongOperator1.webp",
+        "name": "盖世英雄 冥驹 等级4 （炫彩1 落日）",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Operator/gaishiyingxiongOperator2.webp",
+        "name": "盖世英雄 冥驹 等级4 （炫彩2 暮光）",
+        "levtag": "images/icon/purple.png"
+      },
+      {
+        "img": "images/weapon/Operator/gaishiyingxiongOperator3.webp",
+        "name": "盖世英雄 冥驹 等级4 （炫彩3 幽月）",
+        "levtag": "images/icon/purple.png"
+      }
+    ],
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Operator/gaishiyingxiongOperator.webp",
+    "length": "wep"
+  }
+]

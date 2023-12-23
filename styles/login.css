@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: #121725;
+}
+
+
+.top {
+    box-shadow: .2rem .4rem 1.2rem rgba(0, 0, 0, 0.3);
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #333333;
+    margin-bottom: 5rem;
+}
+
+.top span {
+    display: inline-block;
+}
+
+.slogo {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: -0.1rem;
+    position: relative;
+    color: #eB565B;
+    right: -16vw;
+    top: 0.5vh;
+}
+
+.personal_detail {
+    color: #fff;
+    padding: .2rem;
+    font-size: 2.4rem;
+    display: inline-block;
+    position: absolute;
+    right: 16vw;
+    top: 1vh;
+}
+
+a, a:visited, a:link, a:hover {
+    color: rgb(221, 223, 235) !important;
+}
+
+.personal_detail a {
+    text-decoration: none;
+}
+
+.personal_detail img {
+    border-radius: .2rem;
+    position: relative;
+    top: .2rem;
+    margin-right: .8rem;
+}
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://starry-lixu.oss-cn-hangzhou.aliyuncs.com/202209141908599.jpg") fixed no-repeat;
+    background-size: cover;
+}
+
+.login-form {
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 2rem;
+    overflow: hidden; /* 隐藏多余的模糊效果*/
+}
+
+.login-form h2 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #3d5245;
+}
+
+.login-form input,
+.login-form button {
+    margin: 2rem 0;
+    height: 3rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 0 14px;
+    color: #3d5245;
+}
