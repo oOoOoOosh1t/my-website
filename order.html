@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的订单 - Vshop</title>
+    <link rel="icon" href="images/icon/ico.png" id="iconTop">
+    <link rel="stylesheet" href="styles/order.css">
+</head>
+<body>
+<!--导航栏-->
+<div class="top">
+    <a href="index.html"><span class="slogo">Valorant</span></a>
+    <div class="personal_detail">
+        <span><img src="images/icon/1.jpg" alt="">Hello</span>
+        <span><a href="cart.html"><img src="images/icon/3.png" alt="">购物车</a></span>
+    </div>
+</div>
+<!--我的订单介绍-->
+<div class="cbar">
+    <p>确认订单信息</p>
+</div>
+<!--商品内容展示-->
+<div class="content">
+</div>
+<!--地址介绍-->
+<div class="cbar">
+    <p>选择收货地址</p>
+</div>
+<!--地址选择栏-->
+<div class="address">
+    <div class="pAddress selected"><p>姓名: 林孜乐</p>
+        <p>地址:浙江绍兴文理学院河西十四幢513</p>
+        <p>电话:12345678910</p>
+    </div>
+    <div class="pAddress"><p>姓名: 谢杰磊</p>
+        <p>地址:浙江绍兴文理学院河西</p>
+        <p>电话:12345678910</p>
+    </div>
+    <div class="pAddress"><p>姓名: 陈冠希</p>
+        <p>地址:浙江绍兴文理学院河北</p>
+        <p>电话:12345678910</p>
+    </div>
+    <div class="pAddress"><p>姓名: 刘德华</p>
+        <p>地址:浙江绍兴文理学院河南</p>
+        <p>电话:12345678910</p>
+    </div>
+</div>
+<!--价格栏-->
+<div class="sum">
+    <div class="det"><p class="sumPricePre">总价</p>
+        <p class="sumPrice">0</p></div>
+    <div class="order">
+        <button class="submit">支付</button>
+    </div>
+</div>
+<!-- 弹窗 -->
+<div class="flexWindow">
+    <!-- 内容 -->
+    <div class="window-content">
+        <span class="close">&times;</span>
+        <div class="windowBar">
+            <p>您的收货人信息</p>
+        </div>
+        <div class="content"></div>
+        <div class="windowBar">
+            <p>总金额</p>
+        </div>
+        <div class="windowBar totalMoney" id="finalPriceFather">
+            <p id="finalPrice"></p>
+        </div>
+    </div>
+</div>
+<script src="scripts/order.js"></script>
+</body>
+</html>
