@@ -1,0 +1,30 @@
+.foot {
+    text-align: center;
+    background-color: #333;
+    height: 250px;
+}
+.foot .xm {
+    font-size: 25px;
+    color: black;
+}
+
+.pages {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pages li {
+    margin: 20px 5px;
+    color: #e66465;
+    padding: 15px;
+    font-weight: 800;
+    border-radius: 9999px;
+    background: #242040;
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    list-style-type: none;
+    width: 20px;
+}
+

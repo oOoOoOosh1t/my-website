@@ -1,0 +1,226 @@
+.char1 img,.char2 img{
+    width: 20vw;
+    position: absolute;
+    top: 5vh;
+    filter: drop-shadow(0px .3rem .6rem rgba(236, 173, 48, 0.185));
+    animation: leftInto 1.5s cubic-bezier(.62, -0.14, .62, 1.25);
+}
+.char1 img{
+    left: 0;
+}
+.char2 img{
+    right: 2vh;
+}
+
+@keyframes leftInto {
+    0% {
+        opacity: 0;
+        transform: translateX(-13rem);
+
+    }
+    100% {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+@keyframes rightInto {
+    0% {
+        opacity: 0;
+        transform: translateX(13rem);
+
+    }
+    100% {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+.lunbo {
+    height: 50rem;
+    width: 100%;
+    animation: topInto 1.5s cubic-bezier(.62, -0.14, .62, 1.25);
+}
+
+@keyframes topInto {
+    0% {
+        opacity: 0;
+        transform: translateY(13rem);
+
+    }
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+.scontent {
+    width: 80rem;
+    height: 30rem;
+    margin: 20px auto;
+    position: relative;
+}
+
+.item {
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.item.active {
+    opacity: 1;
+}
+
+.lunbo{
+    img{
+        border-radius: 2rem;
+        width: 100%;
+        height: 50rem;
+    }
+    &:hover{
+        #btn-left{
+            opacity: 1;
+        }
+        #btn-right{
+            opacity: 1;
+        }
+    }
+}
+
+#btn-left,#btn-right{
+    width: 2.6rem;
+    height: 6.9rem;
+    font-size: 3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 6.9rem;
+    padding-left: .5rem;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(90%); /*使按钮向上偏移居中对齐*/
+    cursor: pointer;
+    opacity: 0; /*平时隐藏*/
+}
+
+#btn-left{
+    left: 0;
+}
+
+#btn-right{
+    right: 0;
+}
+
+#circle {
+    height: 2rem;
+    display: flex;
+    position: absolute;
+    bottom: -1.5rem;
+    right: 2.5rem;
+}
+
+.circle {
+    position: relative;
+    top: 16.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    border: .2rem solid rgba(255, 255, 255, 0.546);
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    margin: .5rem;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.tab {
+    position: relative;
+    margin-bottom: 8rem;
+    min-height: 50rem;
+    width: 100%;
+    height: 50rem;
+}
+
+.selectType {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectType input{
+    display: none;
+}
+
+nav.typeOfGun {
+    overflow: hidden;
+    margin: 2.4rem 0;
+    background: #242040;
+    padding: var(--nav-item-padding) 0;
+    border-radius: var(--nav-item-height);
+    position: relative;
+    &::after{
+        content: '';
+        display: block;
+        width: calc(var(--nav-item-width) - var(--nav-item-padding));
+        height: calc(var(--nav-item-height) + var(--nav-item-padding));
+        background-color: rgba(70, 61, 124, 0.56);
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: calc(var(--nav-item-padding) / 2);
+        border-radius: 999px;
+        transition: .5s all cubic-bezier(.62, -0.14, .62, 1.25);
+    }
+    ul{
+        color: #eB565B;
+        display: flex;
+        align-items: center;
+        height: var(--nav-item-height);
+        font-weight: bold;
+        position: relative;
+        z-index: 2;
+        li{
+            font-size: 1.8rem;
+            width: var(--nav-item-width);
+            text-align: center;
+        }
+    }
+}
+
+#nav-Vandal:checked ~ nav.typeOfGun::after {
+    transform: translateX(0);
+}
+
+#nav-Operator:checked ~ nav.typeOfGun::after {
+    transform: translateX( calc(var(--nav-item-width) * 1));
+}
+
+#nav-Phantom:checked ~ nav.typeOfGun::after {
+    transform: translateX(calc(var(--nav-item-width) * 2));
+}
+
+#nav-Guardian:checked ~ nav.typeOfGun::after {
+    transform: translateX(calc(var(--nav-item-width) * 3));
+}
+
+#nav-Bucky:checked ~ nav.typeOfGun::after {
+    transform: translateX(calc(var(--nav-item-width) * 4));
+}
+
+#nav-Odin:checked ~ nav.typeOfGun::after {
+    transform: translateX(calc(var(--nav-item-width) * 5));
+}
+
+#nav-Bulldog:checked ~ nav.typeOfGun::after {
+    transform: translateX(calc(var(--nav-item-width) * 6));
+}
+
+#nav-Classic:checked ~ nav.typeOfGun::after {
+    transform: translateX(calc(var(--nav-item-width) * 7));
+}
+
+#nav-Ghost:checked ~ nav.typeOfGun::after {
+    transform: translateX(calc(var(--nav-item-width) * 8));
+}
