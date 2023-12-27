@@ -53,10 +53,36 @@ window.onload = function () {
 
         //商品的删除
         function myDelete() {
+            let selectAll = document.querySelector('.selectAll');
             let del = document.querySelectorAll('.delete');
             del.forEach(item => {
                 item.onclick = function () {
                     item.parentNode.parentNode.parentNode.parentNode.removeChild(item.parentNode.parentNode.parentNode);
+                    let selectButton = document.querySelectorAll('.select');
+                    let lflag = 1;
+                    selectButton.forEach(x => {
+                        console.log(x.innerHTML)
+                        if (x.innerHTML === '选中') {
+                            lflag = 0;
+                        }
+                    })
+                    if (lflag === 1) {
+                        for (let i = 0; i < selectButton.length; i++) {
+                            if (selectButton[i].innerHTML === '选中') {
+                                selectButton[i].parentNode.parentNode.parentNode.querySelector('#maind').style.background = 'linear-gradient(to left, #242040, rgba(145, 152, 229, 0.42))';
+                                selectButton[i].parentNode.parentNode.parentNode.style.border = '1px solid #eB565B';
+                                selectButton[i].innerHTML = '取消';
+                                selectButton[i].style.background = '#eB565B';
+                                selectButton[i].style.color = '#eee';
+                                selectButton[i] = 1;
+                            }
+                        }
+                        selectAll.innerHTML = '取消全选';
+                        flag = 0;
+                    }
+                    else{
+                        selectAll.innerHTML = '全选';
+                    }
                 }
             });
 
@@ -65,71 +91,69 @@ window.onload = function () {
         //商品的选中
         function myselect() {
             let selectButton = document.querySelectorAll('.select');
-            let selectedArray = new Array(selectButton.length).fill(0);
             let flag = 1;
             let selectAll = document.querySelector('.selectAll');
             for (let i = 0; i < selectButton.length; i++) {
                 selectButton[i].onclick = function () {
-                    if (selectedArray[i] === 0) {
+                    if (selectButton[i].innerHTML === '选中') {
                         selectButton[i].parentNode.parentNode.parentNode.querySelector('#maind').style.background = 'linear-gradient(to left, #242040, rgba(145, 152, 229, 0.42))';
                         selectButton[i].parentNode.parentNode.parentNode.style.border = '1px solid #eB565B';
                         selectButton[i].innerHTML = '取消';
                         selectButton[i].style.background = '#eB565B';
                         selectButton[i].style.color = '#eee';
-                        selectedArray[i] = 1;
                     } else {
                         selectButton[i].parentNode.parentNode.parentNode.querySelector('#maind').style.background = 'none';
                         selectButton[i].parentNode.parentNode.parentNode.style.border = 'none';
                         selectButton[i].innerHTML = '选中';
                         selectButton[i].style.background = 'transparent';
                         selectButton[i].style.color = '#eB565B';
-                        selectedArray[i] = 0;
                     }
                     let lflag = 1;
-                    selectedArray.forEach(x => {
-                        if (x === 0) {
+                    selectButton.forEach(x => {
+                        if (x.innerHTML === '选中') {
                             lflag = 0;
                         }
                     })
                     if (lflag === 1) {
                         for (let i = 0; i < selectButton.length; i++) {
-                            if (selectedArray[i] === 0) {
+                            if (selectButton[i].innerHTML === '选中') {
                                 selectButton[i].parentNode.parentNode.parentNode.querySelector('#maind').style.background = 'linear-gradient(to left, #242040, rgba(145, 152, 229, 0.42))';
                                 selectButton[i].parentNode.parentNode.parentNode.style.border = '1px solid #eB565B';
                                 selectButton[i].innerHTML = '取消';
                                 selectButton[i].style.background = '#eB565B';
                                 selectButton[i].style.color = '#eee';
-                                selectedArray[i] = 1;
+                                selectButton[i] = 1;
                             }
                         }
                         selectAll.innerHTML = '取消全选';
                         flag = 0;
+                    }
+                    else{
+                        selectAll.innerHTML = '全选';
                     }
                 }
             }
             selectAll.onclick = function () {
                 if (flag === 1) {
                     for (let i = 0; i < selectButton.length; i++) {
-                        if (selectedArray[i] === 0) {
+                        if (selectButton[i].innerHTML === '选中') {
                             selectButton[i].parentNode.parentNode.parentNode.querySelector('#maind').style.background = 'linear-gradient(to left, #242040, rgba(145, 152, 229, 0.42))';
                             selectButton[i].parentNode.parentNode.parentNode.style.border = '1px solid #eB565B';
                             selectButton[i].innerHTML = '取消';
                             selectButton[i].style.background = '#eB565B';
                             selectButton[i].style.color = '#eee';
-                            selectedArray[i] = 1;
                         }
                     }
                     selectAll.innerHTML = '取消全选';
                     flag = 0;
                 } else {
                     for (let i = 0; i < selectButton.length; i++) {
-                        if (selectedArray[i] === 1) {
+                        if (selectButton[i].innerHTML === '取消') {
                             selectButton[i].parentNode.parentNode.parentNode.querySelector('#maind').style.background = 'none';
                             selectButton[i].parentNode.parentNode.parentNode.style.border = 'none';
                             selectButton[i].innerHTML = '选中';
                             selectButton[i].style.background = 'none';
                             selectButton[i].style.color = '#eB565B';
-                            selectedArray[i] = 0;
                         }
                     }
                     selectAll.innerHTML = '全选';

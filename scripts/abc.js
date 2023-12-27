@@ -91,18 +91,29 @@ window.onload = function () {
     }
     {
         let selectBtn = document.querySelectorAll('.selectType input');
-        selectBtn.forEach(item=>{
-            item.onclick = function (){
+        selectBtn.forEach(item => {
+            item.onclick = function () {
 
             }
         })
     }
     {
-        fetch('json/item.json')
-            .then(
-                function (response) {
-                    return response.json();
-                }).then(function (json) {
+        const getJsonFromid = (json, id) => {
+            let list;
+            json.forEach(item => {
+                if (item.id === id) {
+                    list = item.list;
+                    return false;
+                }
+            });
+            if (typeof list !== 'undefined') {
+                return list;
+            }
+            return false;
+        }
+
+        $.getJSON("json/demo.json").then(json => {
+            json = getJsonFromid(json, 1);
             let content = document.querySelector('.content ul');
             json.forEach(item => {
                 let li = document.createElement('li');
@@ -119,10 +130,86 @@ window.onload = function () {
                     '</div>' +
                     '</a>';
                 content.append(li);
-            });
-        })
-            .catch(function (e) {
-                console.log(e);
             })
+        }).catch(e => {
+            console.error(e + '请求数据失败');
+        });
+    }
+
+    {
+        const getJsonFromid = (json, id) => {
+            let list;
+            json.forEach(item => {
+                if (item.id === id) {
+                    list = item.list;
+                    return false;
+                }
+            });
+            if (typeof list !== 'undefined') {
+                return list;
+            }
+            return false;
+        }
+        const fun = (index) => {
+            $.getJSON('json/demo.json').then(json => {
+                json = getJsonFromid(json, index);
+                $('.content ul').empty();
+                json.forEach(item => {
+                    let li = document.createElement('li');
+                    li.innerHTML =
+                        `<a href="details.html?id=${item.id}" target="_blank" id="${item.id}">` +
+                        `<div class='${item.kind}'>` +
+                        '<div class="lbox">' +
+                        '<div class="box-content">' +
+                        `<img src="${item.imgUrl1}" alt="pri_logo" class="pri_logo"> ${item.price} <img src="${item.imgUrl2}" alt="pri_logo" class="lev_logo">` +
+                        '</div>' +
+                        '</div>' +
+                        `<img src="${item.imgUrl3}" alt="wep" class="${item.length}">` +
+                        `<div class="name"> ${item.name} </div>` +
+                        '</div>' +
+                        '</a>';
+                    $('.content ul').append(li);
+                })
+            }).catch(error => {
+                console.error(error + '数据请求失败');
+            });
+        }
+        const pages = $('.pages li');
+        pages.click(function () {
+            const index = $(this).index() + 1;
+            fun(index)
+            $(this).addClass('pages-active').siblings().removeClass('pages-active');
+        });
+        const  type = document.querySelectorAll('.selectType input');
+        type.forEach(item=>{
+            item.onclick = function (){
+                $('.content ul').empty();
+                let temp = item.id.substring(4);
+                console.log(temp)
+                $.getJSON('json/demo.json').then(json=>{
+                    let cnt = 0;
+                    json.forEach(lito=>{
+                        lito.list.forEach(x=>{
+                            if(x.imgUrl3.indexOf(temp) !== -1){
+                                let li = document.createElement('li');
+                                li.innerHTML =
+                                    `<a href="details.html?id=${x.id}" target="_blank" id="${x.id}">` +
+                                    `<div class='${x.kind}'>` +
+                                    '<div class="lbox">' +
+                                    '<div class="box-content">' +
+                                    `<img src="${x.imgUrl1}" alt="pri_logo" class="pri_logo"> ${x.price} <img src="${x.imgUrl2}" alt="pri_logo" class="lev_logo">` +
+                                    '</div>' +
+                                    '</div>' +
+                                    `<img src="${x.imgUrl3}" alt="wep" class="${x.length}">` +
+                                    `<div class="name"> ${x.name} </div>` +
+                                    '</div>' +
+                                    '</a>';
+                                $('.content ul').append(li);
+                            }
+                        })
+                    })
+                })
+            }
+        })
     }
 }
