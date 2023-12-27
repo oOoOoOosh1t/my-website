@@ -141,6 +141,10 @@ a, a:visited, a:link, a:hover {
     height: auto;
 }
 
+.clear{
+    clear: both;
+}
+
 .gun .name {
     color: #dddfeb;
     height: 40px;
@@ -156,6 +160,7 @@ a, a:visited, a:link, a:hover {
     width: 40vh;
     height: 525px;
     border-radius: 10px;
+    margin-bottom: 3rem;
 }
 
 .mainContent {
