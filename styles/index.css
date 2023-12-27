@@ -102,30 +102,31 @@ li {
     padding: .2rem;
 }
 
+.music:active {
+    transform: translateY(0.2rem);
+}
+
+.music span {
+    background-color: #333333;
+    display: block;
+    padding: 0.8rem 2.5rem;
+    border-radius: 0.35rem;
+}
+
 .music span:hover {
-    background-color: #eB565B;
-    color: #fff;
     cursor: pointer;
 }
 
-.music {
-    span {
-        background-color: #333333;
-        display: block;
-        padding: 0.8rem 2.5rem;
-        border-radius: 0.35rem;
-    }
-    &::after {
-        content: '';
-        position: absolute;
-        background: conic-gradient(from 180deg at 50% 50%, #00D1FF 0deg, #EE27FF 106.88deg, #205EFF 206.25deg, #00F0FF 286.87deg, #00D1FF 360deg);
-        top: -200px;
-        right: -200px;
-        bottom: -200px;
-        left: -200px;
-        z-index: -1;
-        animation: 3s rotate linear infinite;
-    }
+.music::after {
+    content: '';
+    position: absolute;
+    background: conic-gradient(from 180deg at 50% 50%, #00D1FF 0deg, #EE27FF 106.88deg, #205EFF 206.25deg, #00F0FF 286.87deg, #00D1FF 360deg);
+    top: -200px;
+    right: -200px;
+    bottom: -200px;
+    left: -200px;
+    z-index: -1;
+    animation: 3s rotate linear infinite;
 }
 
 @keyframes rotate {

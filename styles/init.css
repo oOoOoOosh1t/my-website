@@ -4,6 +4,7 @@
 @import url(footer.css);
 @import url(top.css);
 @import url(tab.css);
+@import url(footer.css);
 
 :root {
     /*font-size: 62.5%;*/

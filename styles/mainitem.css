@@ -1,4 +1,4 @@
-.content ul{
+.content ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 3rem;
@@ -7,16 +7,16 @@
     min-height: 50rem;
 }
 
-@keyframes glow{
-    from{
+@keyframes glow {
+    from {
         background-position: 0;
     }
-    to{
+    to {
         background-position: 400%;
     }
 }
 
-.box-content .pri_logo{
+.box-content .pri_logo {
     position: relative;
     top: .4rem;
     right: .6rem;
@@ -24,11 +24,11 @@
     height: 2.4rem;
 }
 
-.content a{
+.content a {
     text-decoration: none;
 }
 
-.box-content .lev_logo{
+.box-content .lev_logo {
     position: relative;
     top: .8rem;
     left: .6rem;
@@ -36,7 +36,7 @@
     height: 3.2rem;
 }
 
-.box-content{
+.box-content {
     filter: drop-shadow(0px 3px 6px rgb(255, 0, 238));
     font-size: 2.4rem;
     color: #fff;
@@ -57,31 +57,53 @@
     flex-direction: column;
     padding: 1rem;
     background-color: rgba(70, 61, 124, 0.56);
-    border-radius: 89% 11% 90% 10% / 9% 88% 12% 91% ;
+    border-radius: 89% 11% 90% 10% / 9% 88% 12% 91%;
     height: 24rem;
+    transition: all 0.3s !important;
+}
+
+
+.content .knife:hover {
+    scale: 1.03;
+    box-shadow: .2rem .4rem 1.2rem rgba(236, 173, 48, 0.696);
+    background: linear-gradient(
+            90deg,
+            #f9d923,
+            #00a19d,
+            #0c87b7,
+            #cb49ff,
+            #ff6666,
+            #f9d923
+    );
+    background-size: 400%;
+    animation: glow 12s linear infinite;
+}
+
+.content .knife:hover .name {
+    color: #eB565B;
 }
 
 .knife:hover .box-content {
     animation: fade-in 1s linear forwards;
- }
+}
 
- @keyframes fade-in{
-    from{
+@keyframes fade-in {
+    from {
         opacity: 0;
     }
-    to{
+    to {
         opacity: 1;
     }
 }
 
-.knife .name{
+.knife .name {
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
     color: #586B73;
 }
 
-.content .knife .wep{
+.content .knife .wep {
     filter: drop-shadow(0px 3px 6px rgba(236, 173, 48, 0.379));
     position: relative;
     margin-top: -.5rem;
@@ -90,37 +112,18 @@
     justify-self: center;
 }
 
-.content .knife:hover{
-    scale: 1.02;
-    box-shadow: .2rem .4rem 1.2rem rgba(236, 173, 48, 0.696);
-    background: linear-gradient(
-        90deg,
-        #f9d923,
-        #00a19d,
-        #0c87b7,
-        #cb49ff,
-        #ff6666,
-        #f9d923
-    );
-    background-size: 400%;
-    animation: glow 12s linear infinite;
-    .name{
-        color: #eB565B;
-    }
-}
-
-.frenzy{
+.frenzy {
     filter: drop-shadow(0px 3px 6px rgba(236, 173, 48, 0.379));
     margin: .5rem;
     width: 70%;
 }
 
-.eg{
+.eg {
     filter: drop-shadow(0px 3px 6px rgba(236, 173, 48, 0.379));
     width: 85%;
 }
 
-.paint{
+.paint {
     filter: drop-shadow(0px 3px 6px rgba(236, 173, 48, 0.379));
     width: 75%;
     margin-top: -1rem;

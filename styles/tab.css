@@ -1,16 +1,19 @@
-.char1 img,.char2 img{
+.char1 img, .char2 img {
     width: 20vw;
     position: absolute;
     top: 5vh;
     filter: drop-shadow(0px .3rem .6rem rgba(236, 173, 48, 0.185));
+    animation: leftInto 1.5s cubic-bezier(.62, -0.14, .62, 1.25);
 }
-.char1 img{
+
+.char1 img {
     animation: leftInto 1.5s cubic-bezier(.62, -0.14, .62, 1.25);
     left: 0;
 }
-.char2 img{
-    animation: rightInto 1.5s cubic-bezier(.62, -0.14, .62, 1.25);
+
+.char2 img {
     right: 2vh;
+    animation: rightInto 1.5s cubic-bezier(.62, -0.14, .62, 1.25);
 }
 
 @keyframes leftInto {
@@ -72,23 +75,17 @@
     opacity: 1;
 }
 
-.lunbo{
-    img{
-        border-radius: 2rem;
-        width: 100%;
-        height: 50rem;
-    }
-    &:hover{
-        #btn-left{
-            opacity: 1;
-        }
-        #btn-right{
-            opacity: 1;
-        }
-    }
+.lunbo img {
+    border-radius: 2rem;
+    width: 100%;
+    height: 50rem;
 }
 
-#btn-left,#btn-right{
+.lunbo:hover #btn-left, .lunbo:hover #btn-right {
+    opacity: 1;
+}
+
+#btn-left, #btn-right {
     width: 2.6rem;
     height: 6.9rem;
     font-size: 3rem;
@@ -104,11 +101,11 @@
     opacity: 0; /*平时隐藏*/
 }
 
-#btn-left{
+#btn-left {
     left: 0;
 }
 
-#btn-right{
+#btn-right {
     right: 0;
 }
 
@@ -150,7 +147,7 @@
     justify-content: center;
 }
 
-.selectType input{
+.selectType input {
     display: none;
 }
 
@@ -161,33 +158,37 @@ nav.typeOfGun {
     padding: var(--nav-item-padding) 0;
     border-radius: var(--nav-item-height);
     position: relative;
-    &::after{
-        content: '';
-        display: block;
-        width: calc(var(--nav-item-width) - var(--nav-item-padding));
-        height: calc(var(--nav-item-height) + var(--nav-item-padding));
-        background-color: rgba(70, 61, 124, 0.56);
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin: calc(var(--nav-item-padding) / 2);
-        border-radius: 999px;
-        transition: .5s all cubic-bezier(.62, -0.14, .62, 1.25);
-    }
-    ul{
-        color: #eB565B;
-        display: flex;
-        align-items: center;
-        height: var(--nav-item-height);
-        font-weight: bold;
-        position: relative;
-        z-index: 2;
-        li{
-            font-size: 1.8rem;
-            width: var(--nav-item-width);
-            text-align: center;
-        }
-    }
+}
+
+nav.typeOfGun::after {
+    content: '';
+    display: block;
+    width: calc(var(--nav-item-width) - var(--nav-item-padding));
+    height: calc(var(--nav-item-height) + var(--nav-item-padding));
+    background-color: rgba(70, 61, 124, 0.56);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: calc(var(--nav-item-padding) / 2);
+    border-radius: 999px;
+    transition: .5s all cubic-bezier(.62, -0.14, .62, 1.25);
+}
+
+nav.typeOfGun ul {
+    color: #eB565B;
+    display: flex;
+    align-items: center;
+    height: var(--nav-item-height);
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+
+nav.typeOfGun ul li {
+    font-size: 1.8rem;
+    width: var(--nav-item-width);
+    text-align: center;
 }
 
 #nav-Vandal:checked ~ nav.typeOfGun::after {
@@ -195,7 +196,7 @@ nav.typeOfGun {
 }
 
 #nav-Operator:checked ~ nav.typeOfGun::after {
-    transform: translateX( calc(var(--nav-item-width) * 1));
+    transform: translateX(calc(var(--nav-item-width) * 1));
 }
 
 #nav-Phantom:checked ~ nav.typeOfGun::after {
@@ -218,7 +219,7 @@ nav.typeOfGun {
     transform: translateX(calc(var(--nav-item-width) * 6));
 }
 
-#nav-Classic:checked ~ nav.typeOfGun::after {
+#nav-Knife:checked ~ nav.typeOfGun::after {
     transform: translateX(calc(var(--nav-item-width) * 7));
 }
 

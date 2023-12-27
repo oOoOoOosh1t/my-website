@@ -41,7 +41,7 @@ svg {
     letter-spacing: -0.1rem;
     position: relative;
     color: #eB565B;
-    right: -16vw;
+    right: -6vw;
     top: 0.5vh;
 }
 
@@ -56,7 +56,7 @@ svg {
     font-size: 2.4rem;
     display: inline-block;
     position: absolute;
-    right: 16vw;
+    right: 6vw;
     top: 1vh;
 }
 

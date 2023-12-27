@@ -1,11 +1,14 @@
 .foot {
     text-align: center;
     background-color: #333;
-    height: 250px;
+    height: 50rem;
 }
-.foot .xm {
-    font-size: 25px;
-    color: black;
+
+.foot svg {
+    margin-top: 10rem;
+    text-align: center;
+    width: 33vw;
+    animation: none !important;
 }
 
 .pages {
@@ -15,7 +18,7 @@
 
 .pages li {
     margin: 20px 5px;
-    color: #e66465;
+    color: #777;
     padding: 15px;
     font-weight: 800;
     border-radius: 9999px;
@@ -26,5 +29,65 @@
     display: inline-block;
     list-style-type: none;
     width: 20px;
+    cursor: pointer;
 }
 
+.pages-active{
+    background-color: #e66465 !important;
+}
+
+.copy-Right {
+    margin: 0 auto;
+    text-align: justify;
+    width: 96rem;
+    font-size: 1.6rem;
+    color: #777;
+    line-height: 2.7rem;
+}
+
+
+.footer__item {
+    display: inline-block;
+}
+
+.footer__item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.footer__list  {
+}
+
+.footer__link:link, .footer__link:visited {
+    color: #f7f7f7;
+    background-color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.footer__link:hover, .footer__link:active {
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    -webkit-transform: rotate(5deg) scale(1.3);
+    transform: rotate(5deg) scale(1.3);
+}
+
+.copy-Left {
+    margin: 2rem auto;
+    text-align: center;
+    width: 100rem;
+    font-size: 1.6rem;
+}
+
+.footer__logo {
+    height: 10rem;
+    margin-bottom: 10rem;
+}
+
+.footer__hr{
+    margin: 1rem auto;
+    border: 1px solid #e66465;
+    width: 100rem;
+}
