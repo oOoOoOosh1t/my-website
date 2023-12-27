@@ -32,7 +32,7 @@
     ],
     "colors": [
       {
-        "img": "images/weapon/Phantom/pengpengtegongduiOperator.webp",
+        "img": "images/weapon/Phantom/pengpengtegongduiPhantom.webp",
         "name": "砰砰特工队 幻影",
         "levtag": "images/icon/purple.png"
       },
@@ -54,7 +54,7 @@
     ],
     "imgUrl1": "images/icon/vp.webp",
     "imgUrl2": "images/icon/orange.webp",
-    "imgUrl3": "images/weapon/Phantom/pengpengtegongduiOperator.webp",
+    "imgUrl3": "images/weapon/Phantom/pengpengtegongduiPhantom.webp",
     "length": "wep"
   },
   {
