@@ -55,7 +55,7 @@ window.onload = function () {
                 }
             })
             .catch(function (e) {
-                console.log("读取json数据失败");
+                console.log(e+"读取json数据失败");
             })
     }
 }

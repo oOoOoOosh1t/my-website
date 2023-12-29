@@ -219,7 +219,7 @@ window.onload = function () {
                     div.className = 'goods';
                     div.innerHTML = `<div class="mainI" id="maind">` +
                         `<p>${json[x].name}</p>` +
-                        `<img src="${json[x].imgUrl3}" alt="" id="${json[x].length}">` +
+                        `<img src="${json[x]['imgUrl3']}" alt="" id="${json[x].length}">` +
                         '</div>' +
                         '<div class="mainI">' +
                         '<div class="num"><p class="num1">数量</p>' +

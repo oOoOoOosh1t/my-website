@@ -113,9 +113,11 @@ window.onload = function (){
                         `小计: <span class="subprice">${json[x].price}</span>` +
                         '</p>' +
                         '</div>' +
+                        '<div class="num">' +
                         '<div class="collection"><p>藏品</p>' +
                         `<span class="co_de">${json[x].Collection}</span>` +
                         '</div>' +
+                        '</div>'+
                         '</div>';
                     content.append(div);
                 })

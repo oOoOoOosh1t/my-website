@@ -205,32 +205,31 @@ button:active {
     color: #eee;
 }
 
-.mainI .num2 .left {
-    right: 14px;
-    top: -4px;
-}
 
 .mainI .num2 .right, .mainI .num2 .left {
+    position: relative;
+    width: 32px;
+    height: 32px;
     line-height: 32px;
     font-size: 24px;
-    position: relative;
     color: #eB565B;
     background: #181F34;
     border: 1px solid #e66465;
     border-radius: 10px;
-    width: 32px;
-    height: 32px;
+    top: -4px;
+}
+.mainI .num2 .left {
+    right: 14px;
 }
 
 .mainI .num2 .right {
     right: -14px;
-    top: -4px;
 }
 
 .sum {
     border-radius: 10px;
     margin: 10px auto;
-    width: 1200px;
+    width: 120rem;
     height: auto;
     background: #192036;
     display: grid;
